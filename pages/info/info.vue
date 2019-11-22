@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<view class="title">{{title}}</view>
+		<view class="title">**{{title}}</view>
 		<view class="art-content">
 			<rich-text class="richText" :nodes="stringsNews"></rich-text>
 		</view>
